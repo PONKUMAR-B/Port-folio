@@ -7,7 +7,3 @@ menu.addEventListener('click',()=>{
     navbar.classList.toggle('slide');
 });
 
-body.addEventListener('click',()=>{
-    navbar.classList.length('slide');
-});
-
