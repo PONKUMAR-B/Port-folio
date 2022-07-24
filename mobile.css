@@ -42,31 +42,61 @@
         display: block;
     }
 
+
+    .home{
+        background-color:rgba(170, 0, 255, 0.699) ;
+        min-height: 80vh;
+    }
     .home .content{
-        margin: 30% 1%;
+        margin: 50% 5.5%;
         padding: 0%;
-        width: 90%;
+        width: 95%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-family: sans-serif;
+    }
+    .home .content #note, #name{
+        color: whitesmoke;
+        font-family: sans-serif;
+    }
+    .home .content span{
+        color: rgb(121, 2, 185);
+        font-family: sans-serif;
+    }
+    .home .content h3{
+        color: black;
+        font-family: sans-serif;
+    }
+    .home .content p{
+        color: rgb(255, 84, 238);
+    }
+    .home .content img{
+        display: block;
+        width: 80%;
+        height: 80%;
+        margin-left: 70px;
+        margin-top: -60px;
+        opacity: 0.8;
     }
     .home .picture{
-        margin: 0% 40%;
-        width: 80%;
-        
+        display: none;
     }
 
 
     .aboutUs {
         width: 100%;
+        min-height: 90vh;
         margin: 0%;
         padding: 0%;
         display: block;
         justify-content: center;
+        align-items: center;
     }
     .aboutUs .image{
         width: 80%;
-        margin: 15% -10%;
+        margin: 15% -8.5%;
     }
     .aboutUs .about_content p{
         padding: 1%;
@@ -76,24 +106,54 @@
 
     .skills .known{
         width: 100%;
+        min-height: 55vh;
         margin: 0%;
         padding: 0%;
         display: block;
         justify-content: center;
+        align-items: center;
     }
     .skills .known h2{
         width: 100%;
         margin: 20% 13%;
-        
+        border: none;
     }
     .skills .known ul{
-        width: 80%;
-        margin: -10% -35%;
-        padding: 1%;
+        width: 100%;
+        margin: -10% -33%;
+        padding: 0%;
     }
     .skills .known ul li{
         margin-top: 20px;
-        padding: -10px -10px;
+        width: 95%;
+        height: 6%;
+        justify-content: center;
+    }
+    .skills .known ul li a{
+        margin-left: 3px;
+    }
+    #para1{
+        padding-left: 205px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para2{
+        padding-left: 230px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para3{
+        padding-left: 160px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para4{
+        padding-left: 190px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .list1:hover{
+        transform: scale(1,1);
     }
     .skills .img1,.img2,.img3{
         display: none;
@@ -102,7 +162,7 @@
 
     .projects{
         width: 100%;
-        min-height: 50vh;
+        min-height: 55vh;
         margin:0%;
         padding: 0%;
         display: block;
@@ -112,6 +172,7 @@
     .projects h2{
         width: 100%;
         margin: 20% -0%;
+        border: none;
     }
     .projects .pro{
         font-size: 14px;
@@ -124,15 +185,18 @@
 
     .contactUs{
         width: 100%;
+        min-height: 40vh;
         margin: 0%;
+        padding: 0%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items:flex-start ;
     }
     .contactUs .info{
         width: 100%;
-        margin: 0% -175%;
+        margin: 0% -162%;
+        border: none;
     }
-
 
 }
