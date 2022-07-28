@@ -318,6 +318,14 @@
         height: 80px;
         padding: 2%;
     }
+    .contactUs #ip3 {
+        color: white;
+        background-color: #9000ff;
+        padding: 8px 30px;
+        border-radius: 10px;
+        border: none;
+        margin: 10% 30%;
+    }
 
 /* copyright section */
 
