@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="mobile.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
 
 </head>
 <body class="head">
 
     <!--home section-->
     <div class="home" id="home_">
-            <header class="main">
+            <header class="main" id="main">
                 <h1>PONKUMAR.B</h1>
                 <nav class="nav_bar">
                     <ul>
-                        <li><a class="a1" href="#home_">Home</a></li>
-                        <li><a class="a1" href="#about_">About Us</a></li>
-                        <li><a class="a1" href="#skill_">Skills</a></li>
-                        <li><a class="a1" href="#project_">Projects</a></li>
-                        <li><a class="a1" href="#contact_">Contact Us</a></li>
-                        <li><a class="a2" type="none" href="D:\VisualStudio\Portfolio\images\MyResume.pdf" target="_blank" download="Resume">
-                            <i class="fa fa-download"></i> Download CV</a></li>
+                        <li><a class="a1" href="#home_">HOME</a></li>
+                        <li><a class="a1" href="#about_">ABOUT</a></li>
+                        <li><a class="a1" href="#skill_">SKILLS</a></li>
+                        <li><a class="a1" href="#project_">PROJECTS</a></li>
+                        <li><a class="a1" href="#contact_">CONTACT</a></li>
                     </ul>
                     <div class="menu">
                         <span class="line"></span>
@@ -35,26 +33,31 @@
             <div class="content">
                 <h2 id="note">Hello,<span> I am </span></h2>
                 <h2 id="name"> PONKUMAR <br><span>BALASUBRAMANIAN</span></h2>
-                <h3>Web Developer</h3>
+                <div class="wrapper">
+                    <div class="static-txt">I'm a</div>
+                    <ul class="dynamic-txts">
+                      <li><span class="span1">Web Designer</span></li>
+                      <li><span class="span2">Web Developer</span></li>
+                      <li><span class="span3"> Python Developer</span></li>
+                    </ul>
+                </div>
                 <p>Learn More Achieve More...</p>
-                <img src="D:\VisualStudio\Portfolio\images\my image.png">
-            </div>
-            <div class="picture">
-                <img src="https://www.pngall.com/wp-content/uploads/8/Service-PNG-Images.png">
+                <a class="a2" type="none" href="images\MyResume.pdf" target="_blank" download="Resume">
+                    <i class="fa fa-download"></i> Download CV</a>
+                <img src="images\my image.png">
             </div>
     </div>
 
     <!-- about section -->
 
     <section class="aboutUs" id="about_">
-        <div class="image">
-            <img src="D:\VisualStudio\Portfolio\images\DSC_0453.JPG" class="rounded" title="ponkumar">
-        </div>
+        <h2>About Me</h2>
         <div class="about_content">
-            <h2>About Me</h2>
+            <img src="images\DSC_0453.JPG" title="ponkumar">
             <p>I have completed in mechanical engineering. But, Now i am 
-                interested in the field of web development. I am fresher for IT industry. 
-                I am always energetic and eager to learn new skills. </p>
+                interested in the field of web development. 
+                I am always energetic and eager to learn new skills.
+            </p>
         </div>
     </section>
 
@@ -71,45 +74,80 @@
                 <li class="list1" type="none"><a id="text" href="#">Django</a><p id="para4">50%</p></li>
             </ul>
         </div>
-        <img class="img1" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png">
-        <img src="D:\VisualStudio\Portfolio\images\Python-Logo-PNG-Image-1.png" alt="" class="img2">
-        <img src="D:\VisualStudio\Portfolio\images\664-6644509_icon-react-js-logo-hd-png-download.png" alt="" class="img3">
+        <img class="img1" src="images\html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png">
+        <img src="images\Python-Logo-PNG-Image-1.png" alt="" class="img2">
+        <img src="images\664-6644509_icon-react-js-logo-hd-png-download.png" alt="" class="img3">
     </section>
 
     <!--project section-->
     <section class="projects" id="project_">
-        <div class="achievement" id="container">
-            <h2>PROJECTS</h2>
-            <ul class="pro">
-                <li id="list1" type="none">PERSONAL ADDRESS BOOK :</li>
-                <li id="list2">The Address book project is simply in python.Taking about the features of this
-                    system,the user can make the list of contacts with their name,address,mobile no,blood group
-                    and keep them as records by using the programming language Python and MySQL.
-                </li><br>
-                <li id="list1" type="none">QUIZ APPLICATION :</li>
-                <li id="list2">The Quiz Application is simply in React JS. Components are used to make quiz questions and answers. 
-                    Build web page by using HTML. CSS is used to style the web page.</li>
-            </ul>
+        <h2>PROJECTS</h2>
+        <div class="row" id="container">
+            <div class="col-sm-3">
+                <div class="card-body">
+                    <h5 class="card-title">PERSONAL ADDRESS BOOK</h5>
+                    <p class="card-text">
+                        <li>The Address book project is simply in python.Taking about the features of this
+                            system,the user can make the list of contacts with their name,address,mobile no,blood group
+                            and keep them as records by using the Python language and MySQL.
+                        </li> 
+                    </p>
+                    <a href="https://github.com/PONKUMAR-B/ReactJS.git" target="_blank">Visit Here</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card-body">
+                    <h5 class="card-title">QUIZ APPLICATION</h5>
+                    <p class="card-text">
+                        <li>The Quiz Application is simply in React JS. To make quiz questions and answers 
+                            using functional components. useState is used to change the state of the component.
+                        </li> 
+                        <li>Build the structure and styling of a web page by using HTML and CSS.
+                        </li> 
+                    </p>
+                    <a href="https://github.com/PONKUMAR-B/Quizz-App.git" target="_blank">Visit Here</a>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <!--contact section-->
     <section class="contactUs" id="contact_">
-        
+        <h2>ContactUs</h2>
         <div class="info">
-            <h2>ContactUs</h2>
-            <h3 class="a1">Mobile No :<span class="no"> 6382394993</span> </h3>
-            <h3 class="a1">Location  : <span class="no">Tirunelveli,Tamilnadu</span></h3>
-            <a class="a2" href="mailto:ponkumarbalasubramanian@gmail.com" target="_blank">Gmail</a>
-            <a class="a2" href="https://www.linkedin.com/in/ponkumar-balasubramanian-b5848b183" target="_blank">Linked In</a>
-            <a class="a2" href="https://github.com/PONKUMAR-B" target="_blank">Github</a>
-            <a href="#" ><i class="bi bi-github"></i></a>
-            <p id="p1">copyright &copy; 2022 portfolio</p>
+            <h3 class="a1">Name      <span class="no1"> : PONKUMAR</span> </h3>
+            <h3 class="a1">Mobile No <span class="no2"> : 6382394993</span> </h3>
+            <h3 class="a1">Location   <span class="no3">: Tirunelveli,Tamilnadu</span></h3><br>
+            <h4>Social Links </h4>
+            <a class="a2" href="mailto:ponkumarbalasubramanian@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a class="a2" href="https://www.linkedin.com/in/ponkumar-balasubramanian-b5848b183" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="a2" href="https://github.com/PONKUMAR-B" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a class="a2" href="https://ponkumarvillagetech.wordpress.com/" target="_blank"><i class="fa-brands fa-wordpress"></i></a>
         </div>
-
+        <div class="form">
+            <form>
+                <label>Name</label> :
+                <input id="ip1" type="text" placeholder="Enter your name"><br>
+                <label>Mobile No</label> :
+                <input id="ip2" type="text" placeholder="Enter your mobile number"><br>
+                <label>Message</label> : <br><br>
+                <textarea placeholder="Text here"></textarea>
+            </form><br>
+        </div>
+        <input id="ip3" type="submit" value="Send">
     </section>
-    <!--JS only-->
+
+<!-- copyright section -->
+
+    <div id="p1">
+        <p>copyright &copy; 2022 portfolio</p>
+    </div>
+
+<!--JS only-->
+
     <script src="script.js"></script>
+    
 </body>
 
 </html>
