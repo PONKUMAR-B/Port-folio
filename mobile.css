@@ -201,29 +201,7 @@
     .skills .known ul li a{
         margin-left: 3px;
     }
-    #para1{
-        padding-left: 205px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para2{
-        padding-left: 230px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para3{
-        padding-left: 160px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para4{
-        padding-left: 190px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    .list1:hover{
-        transform: scale(1,1);
-    }
+    
     .skills .img1,.img2,.img3{
         display: none;
     }
@@ -262,6 +240,10 @@
         border-radius: 20px;
         color: whitesmoke;
         margin-bottom: 15px;
+    }
+
+    .projects .sticky{
+        display: none;
     }
    
 /* contact section */
@@ -326,6 +308,11 @@
         border: none;
         margin: 10% 30%;
     }
+
+    .contactUs .sticky{
+        display: none;
+    }
+
     
 /* copyright section */
 
@@ -520,26 +507,7 @@
     .skills .known ul li a{
         margin-left: 3px;
     }
-    #para1{
-        padding-left: 205px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para2{
-        padding-left: 230px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para3{
-        padding-left: 160px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
-    #para4{
-        padding-left: 190px;
-        padding-top: 10px;
-        font-weight: bold;
-    }
+
     .list1:hover{
         transform: scale(1,1);
     }
@@ -581,6 +549,10 @@
         border-radius: 20px;
         color: whitesmoke;
         margin-bottom: 15px;
+    }
+
+    .projects .sticky{
+        display: none;
     }
    
 /* contact section */
@@ -644,6 +616,10 @@
         border-radius: 10px;
         border: none;
         margin: 10% 30%;
+    }
+
+    .contactUs .sticky{
+        display: none;
     }
     
 /* copyright section */
