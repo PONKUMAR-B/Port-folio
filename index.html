@@ -52,8 +52,8 @@
 
     <section class="aboutUs" id="about_">
         <h2>About Me</h2>
+        <img src="images\DSC_0453.JPG" title="ponkumar">
         <div class="about_content">
-            <img src="images\DSC_0453.JPG" title="ponkumar">
             <p>I have completed in mechanical engineering. But, Now i am 
                 interested in the field of web development. 
                 I am always energetic and eager to learn new skills.
@@ -77,6 +77,8 @@
         <img class="img1" src="images\html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png">
         <img src="images\Python-Logo-PNG-Image-1.png" alt="" class="img2">
         <img src="images\664-6644509_icon-react-js-logo-hd-png-download.png" alt="" class="img3">
+
+        <a class="sticky" href="#home_"><i class="fa-solid fa-circle-arrow-up"></i></a>
     </section>
 
     <!--project section-->
@@ -109,6 +111,7 @@
                 </div>
             </div>
         </div>
+        <a class="sticky" href="#home_"><i class="fa-solid fa-circle-arrow-up"></i></a>
     </section>
 
 
@@ -116,9 +119,12 @@
     <section class="contactUs" id="contact_">
         <h2>ContactUs</h2>
         <div class="info">
-            <h3 class="a1">Name      <span class="no1"> : PONKUMAR</span> </h3>
-            <h3 class="a1">Mobile No <span class="no2"> : 6382394993</span> </h3>
-            <h3 class="a1">Location   <span class="no3">: Tirunelveli,Tamilnadu</span></h3><br>
+            <h3 class="a1">Name          <span class="no1"> : PONKUMAR</span> </h3>
+            <h3 class="a1">Qualification <span class="no"> : BE( Mechanical )</span> </h3>
+            <h3 class="a1">Mobile No     <span class="no2"> : 6382394993</span> </h3>
+            <h3 class="a1">Location      <span class="no3"> : Rettarkulam, <br>
+                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Tirunelveli( Dist ),<br>
+                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Tamilnadu</span></h3><br>
             <h4>Social Links </h4>
             <a class="a2" href="mailto:ponkumarbalasubramanian@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             <a class="a2" href="https://www.linkedin.com/in/ponkumar-balasubramanian-b5848b183" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -126,16 +132,19 @@
             <a class="a2" href="https://wordpress.com/me" target="_blank"><i class="fa-brands fa-wordpress"></i></a>
         </div>
         <div class="form">
-            <form>
-                <label>Name</label> :
-                <input id="ip1" type="text" placeholder="Enter your name"><br>
-                <label>Mobile No</label> :
-                <input id="ip2" type="text" placeholder="Enter your mobile number"><br>
-                <label>Message</label> : <br><br>
-                <textarea placeholder="Text here"></textarea>
+            <form method="post" action="mailto:ponkumarbalasubramanian@gmail.com">
+                <label>Name :</label> <br>
+                <input id="name" type="text" placeholder="abcd" required><br>
+                <label>Mobile No :</label> <br>
+                <input id="pwd" type="text" placeholder="12345" required><br>
+                <label>Email :</label> <br>
+                <input id="email" type="email" placeholder="abcd@gmail.com" required><br>
+                <label>Message :</label> <br>
+                <textarea id="message" rows="3" placeholder="Text here" required></textarea>
             </form><br>
+            <input id="btn" type="submit" value="Send">
         </div>
-        <input id="ip3" type="submit" value="Send">
+        <a class="sticky" href="#home_"><i class="fa-solid fa-circle-arrow-up"></i></a>
     </section>
 
 <!-- copyright section -->

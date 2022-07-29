@@ -1,6 +1,6 @@
 /* for mobiles */
 
-@media (max-width:780px) and (min-width:250px){
+@media only screen and (max-width:680px) and (min-width:250px){
     .nav_bar ul {
         position: fixed;
         width: 100%;
@@ -130,15 +130,12 @@
         margin-top: -20px;
     }
 
-    .wrapper{
-        display: none;
-    }
-
+  
 /* about section */
 
     .aboutUs {
         width: 100%;
-        min-height: 120vh;
+        min-height: 130vh;
         margin: 0%;
         padding: 0%;
         display: block;
@@ -155,10 +152,10 @@
         color: #9000ff;
         font-weight: bold;
     }
-    .aboutUs .about_content img {
+    .aboutUs img {
         width: 300px;
         height: 380px;
-        margin: 25% 12%;
+        margin: 25% 25%;
         box-shadow: 2px 3px 20px 3px black;
         border-radius: 30px;
     }
@@ -166,11 +163,11 @@
         font-size: 24px;
         padding: 15px;
         margin-top: -170px;
-        margin-right: 18px;
-        width: 350px;
+        margin-right: 100px;
+        width: 320px;
     
     }
-    .about_content:hover img{
+    .aboutUs:hover img{
         transform: translateY(-100px);
         transition: 1s;
     }
@@ -180,14 +177,14 @@
     .skills .known {
         width: 100%;
         height: 110vh;
-        margin-top: 150px;
+        margin-top: 130px;
         display: block;
         justify-content: center;
         align-items: center;
     }
     .skills .known h2{
         width: 100%;
-        margin: 20% 1%;
+        margin: 15% 1%;
         border: none;
     }
     .skills .known ul{
@@ -231,11 +228,16 @@
         display: none;
     }
 
+    .skills .sticky{
+        display: none;
+    }
+
+
 /* project section */
 
     .projects{
         width: 100%;
-        min-height: 130vh;
+        min-height: 150vh;
         margin: 0%;
         padding: 0%;
         display: flex;
@@ -245,7 +247,7 @@
     }
     .projects h2{
         width: 100%;
-        margin-top: 50px;
+        margin-top: 120px;
         border: none;
     }
     .projects .row{
@@ -266,7 +268,7 @@
 
     .contactUs{
         width: 100%;
-        height: 130vh;
+        min-height: 150vh;
         margin: 0%;
         padding: 0%;
         display: flex;
@@ -276,7 +278,7 @@
     .contactUs h2 {
         font-size: 28px;
         color: white;
-        margin-top: 110px;
+        margin-top: 20px;
         display: flex;
         justify-content: center;
         font-weight: bold;
@@ -284,6 +286,7 @@
 
     .contactUs .info {
         background-color: #9000ff;
+        width: fit-content;
         padding: 20px;
         margin-top: 20px;
         border-radius: 10px;
@@ -292,26 +295,30 @@
     }
 
     .contactUs .form {
-        float: right;
         background-color: whitesmoke;
+        width: 78%;
         text-align: left;
-        padding: 25px;
+        padding: 30px;
         border-radius: 10px;
         margin-top: 20px;
+        margin-left: 45px;
     }
-    .contactUs .form #ip1 {
-        margin-left: 12%;
-        padding: 1%;
-    }
-    .contactUs .form #ip2 {
+    .contactUs .form #name {
         margin-left: 3%;
         padding: 1%;
+        
+    }
+    .contactUs .form #pwd,#email {
+        margin-left: 3%;
+        padding: 1%;
+        
     }
     .contactUs .form textarea {
-        margin-left: 1%;
+        margin-left: 3%;
         padding: 2%;
+       
     }
-    .contactUs #ip3 {
+    .contactUs .form #btn {
         color: white;
         background-color: #9000ff;
         padding: 8px 30px;
@@ -328,3 +335,322 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and(min-width:680px),(max-width:1024px) {
+    .nav_bar{
+        display: inline;
+    }
+    .nav_bar ul li:hover{
+        background-color: white;
+        color: #9000ff;
+        cursor: pointer;
+    }
+    
+    .nav_bar ul li .a1{
+        color:white;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px 25px;
+        transition: 0.8s;
+    }
+    
+    .nav_bar ul li:hover .a1{
+        color:black;
+    }
+    
+
+
+    .home{
+        background-color:whitesmoke;
+        height: 120vh;
+        width: 100%;
+    }
+    .home .content {
+        margin: 35% 20%;
+        padding: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        font-family: sans-serif;
+    }
+    .home .content #note, #name{
+        color: black;
+        font-family: sans-serif;
+    }
+    .home .content span{
+        color: #9000ff;
+        font-family: sans-serif;
+    }
+    .home .content h2{
+        margin-top: 2%;
+    }
+    .home .content h3{
+        color: black;
+        font-family: sans-serif;
+    }
+    .home .content p{
+        margin: 2% 0%;
+        color: #9000ff;
+    }
+    .content .a2 {
+        text-decoration: none;
+        background-color: #9000ff;
+        margin: 3% 0%;
+        width: 58%;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-weight: bold;
+        align-items: center;
+        padding: 15px 15px;
+        border-radius: 10px;
+    }
+    .content .a2:hover{
+        color: #9000ff;
+        background-color: #f3f3f3;
+    }
+    .content .a2 i{
+        padding-right: 20px;
+    }
+    .content .a2:hover i{
+        animation: down 0.5s infinite;
+    }
+    @keyframes down{
+        0%{
+            color: white;
+        }
+        100%{
+            color: #9000ff;
+        }
+    }
+
+    .home .content img {
+        display: flex;
+        width: 400px;
+        height: 500px;
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+
+    .wrapper{
+        display: none;
+    }
+
+/* about section */
+
+    .aboutUs {
+        width: 100%;
+        min-height: 130vh;
+        margin: 0%;
+        padding: 0%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutUs h2 {
+        display: block;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-shadow: 1px 2px 10px 1px #000000;
+        color: #9000ff;
+        font-weight: bold;
+    }
+    .aboutUs img {
+        width: 300px;
+        height: 380px;
+        margin: 25% 20%;
+        box-shadow: 2px 3px 20px 3px black;
+        border-radius: 30px;
+    }
+    .aboutUs .about_content p {
+        font-size: 24px;
+        padding: 15px;
+        margin-top: -170px;
+        margin-right: 80px;
+        width: 320px;
+    
+    }
+    .aboutUs:hover img{
+        transform: translateY(-100px);
+        transition: 1s;
+    }
+
+/* skills section */
+
+    .skills .known {
+        width: 100%;
+        height: 100vh;
+        margin-top: 130px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .known h2{
+        width: 100%;
+        margin: 15% 1%;
+        border: none;
+    }
+    .skills .known ul{
+        width: 100%;
+        margin: -10% -33%;
+        padding: 0%;
+    }
+    .skills .known ul li{
+        margin-top: 20px;
+        width: 95%;
+        height: 6%;
+        justify-content: center;
+    }
+    .skills .known ul li a{
+        margin-left: 3px;
+    }
+    #para1{
+        padding-left: 205px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para2{
+        padding-left: 230px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para3{
+        padding-left: 160px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    #para4{
+        padding-left: 190px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .list1:hover{
+        transform: scale(1,1);
+    }
+    .skills .img1,.img2,.img3{
+        display: none;
+    }
+
+    .skills .sticky{
+        display: none;
+    }
+
+
+/* project section */
+
+    .projects{
+        width: 100%;
+        min-height: 110vh;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects h2{
+        width: 100%;
+        margin-top: 10px;
+        border: none;
+    }
+    .projects .row{
+        margin: 10px 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projects .row .card-body {
+        background-color: #9000ff;
+        padding: 30px;
+        border-radius: 20px;
+        color: whitesmoke;
+        margin-bottom: 15px;
+    }
+   
+/* contact section */
+
+    .contactUs{
+        width: 100%;
+        min-height: 120vh;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactUs h2 {
+        font-size: 28px;
+        color: white;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .contactUs .info {
+        background-color: #9000ff;
+        width: fit-content;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: left;
+        font-size: 22px !important;
+    }
+
+    .contactUs .form {
+        background-color: whitesmoke;
+        width: 78%;
+        text-align: left;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .contactUs .form #name {
+        margin-left: 3%;
+        padding: 1%;
+        
+    }
+    .contactUs .form #pwd,#email {
+        margin-left: 3%;
+        padding: 1%;
+        
+    }
+    .contactUs .form textarea {
+        margin-left: 3%;
+        padding: 2%;
+       
+    }
+    .contactUs .form #btn {
+        color: white;
+        background-color: #9000ff;
+        padding: 8px 30px;
+        border-radius: 10px;
+        border: none;
+        margin: 10% 30%;
+    }
+    
+/* copyright section */
+
+    #p1 p {
+        text-align: center;
+        padding-top: 4%;
+    }
+
+} 
