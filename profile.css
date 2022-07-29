@@ -112,11 +112,11 @@
 
 /* content start */
 
-.home .content{
-    letter-spacing:1px;
-    margin-left: 200px;
+.home .content {
+    letter-spacing: 1px;
+    margin-left: 250px;
     margin-top: 250px;
-    float:left;
+    float: left;
 }
 
 .content h2 {
@@ -248,11 +248,11 @@ span{
     }
   }
 
-  .content img {
+.content img {
     display: flex;
     width: 500px;
     height: fit-content;
-    margin-left: 700px;
+    margin-left: 750px;
     margin-top: -500px;
 }
 
@@ -282,26 +282,25 @@ span{
     width: 100%;
     height: fit-content;
 }
-.aboutUs .about_content img{
-    width:300px;
-    height:400px;
-    margin: 3% 40%;
+.aboutUs .about_content img {
+    width: 380px;
+    margin: 2% 37%;
     box-shadow: 2px 3px 20px 3px black;
     border-radius: 30px;
 }
 
-.about_content p{
+.about_content p {
     display: none;
-    width: 35%;
+    width: 25%;
     float: right;
-    margin: -24% 15%;
-    font-size:26px;
+    margin: -26% 18%;
+    font-size: 26px;
     font-weight: 500;
     border: 2px solid #9000ff;
     border-radius: 20px;
-    box-shadow: inset 0px 0px 20px -8px  #9000ff;
+    box-shadow: inset 0px 0px 20px -8px #9000ff;
     padding: 25px 30px;
-    color:rgb(53, 53, 53);
+    color: rgb(53, 53, 53);
     letter-spacing: 1px;
     text-align: left;
 }
@@ -309,7 +308,7 @@ span{
     display: flex;
 }
 .about_content:hover img{
-    transform: translate(-350px,40px);
+    transform: translate(-350px,30px);
     transition: 1s;
 }
 
@@ -333,7 +332,8 @@ span{
     margin: 7% 40%;
 }
 .skills .known ul{
-    margin-top: -3%;
+    margin-top: -2%;
+    margin-left: 0%;
 }
 .list1{
     font-size: 20px;
@@ -384,29 +384,26 @@ span{
     padding-top: 10px;
     font-weight: bold;
 }
-.skills .img1{
+.skills .img1 {
     height: 120px;
     width: 250px;
-    margin-top: -35%;
+    margin-top: -32%;
     margin-left: 12%;
     transition: 1s;
-    transform: translate(-20px,0px);
 }
 .skills .img2{
     height: 120px;
     width: 160px;
-    margin-top: -35%;
+    margin-top: -32%;
     margin-left: 50%;
     transition: 1s;
-    transform: translate(-20px,0px);
 }
 .skills .img3{
     height: 120px;
     width: 140px;
-    margin-top: -35%;
+    margin-top: -32%;
     margin-left: -20%;
     transition: 1s;
-    transform: translate(-20px,0px);
 }
 
 .skills .img1:hover,.img2:hover,.img3:hover{
