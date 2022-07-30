@@ -122,11 +122,9 @@
     margin-bottom: 1%;
 }
 
-span{
+.home .content span{
     color:#9000ff;
-}
-.content img{
-    display: none;
+    margin-left: 5px;
 }
 
 .content p {
@@ -342,6 +340,7 @@ span{
     display: flex;
     text-decoration: none;
     color: black;
+    margin-left: 10px;
 }
 .list1:hover{
     background-color:transparent;
