@@ -215,7 +215,7 @@
 
     .projects{
         width: 100%;
-        min-height: 160vh;
+        min-height: 155vh;
         margin: 0%;
         padding: 0%;
         display: flex;
@@ -251,7 +251,7 @@
 
     .contactUs{
         width: 100%;
-        min-height: 160vh;
+        min-height: 155vh;
         margin: 0%;
         padding: 0%;
         display: flex;
