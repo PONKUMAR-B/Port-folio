@@ -124,7 +124,6 @@
 
 .home .content span{
     color:#9000ff;
-    margin-left: 5px;
 }
 
 .content p {
@@ -282,7 +281,7 @@
     font-weight: 500;
     border: 2px solid #9000ff;
     border-radius: 20px;
-    box-shadow: inset 0px 0px 20px -8px #9000ff;
+    box-shadow: inset 0px 0px 20px -11px #9000ff;
     padding: 25px 30px;
     color: rgb(53, 53, 53);
     letter-spacing: 1px;
@@ -570,7 +569,7 @@
     background-color: #ede1f6;
     border: 1.5px solid #9000ff;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 20px -10px #9000ff;
+    box-shadow: inset 0px 0px 20px -20px #9000ff;
 }
 .contactUs .form textarea{
     margin-left: 2%;
@@ -579,7 +578,7 @@
     background-color: #ede1f6;
     border: 1.5px solid #9000ff;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 20px -10px #9000ff;
+    box-shadow: inset 0px 0px 20px -20px #9000ff;
 }
 .contactUs .form label,input,textarea{
     margin-top: 3%;
