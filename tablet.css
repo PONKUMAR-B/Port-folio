@@ -1,0 +1,101 @@
+
+@media screen and (max-width:1240px) and (min-width:640px){
+
+    .home{
+        width: 100%;
+        margin: 0%;
+        background-color: black;
+    }
+
+    .home .content{
+        margin-left: 180px;
+    }
+
+    .content h2{
+        color: white;
+    }
+
+    .content img {
+        display: flex;
+        width: 450px;
+        height: fit-content;
+        margin-left: 550px;
+        margin-top: -450px;
+    }
+
+    .wrapper .static-txt{
+        color: white;
+    }
+
+    .dynamic-txts li span::after{
+        background-color: black;
+    }
+
+
+/* about page */
+
+    .aboutUs img{
+        margin: 2% 35%;
+    }
+
+    .aboutUs .set:hover img{
+        transform: translate(-280px,20px);
+        transition: 1s;
+    }
+
+    .aboutUs .about_content p{
+        margin-top: -400px;
+        margin-right: 100px;
+        width: 400px;
+    }
+
+
+/* skills page */
+
+    .skills .known h2{
+        margin: 8% 38%; 
+    }
+
+    .skills .known ul{
+        margin-left: -5%;
+    }
+
+    .skills .img1{
+        margin-top: -40%;
+        margin-left: 8%;
+    }
+    .skills .img2{
+        margin-top: -40%;
+    }
+    .skills .img3{
+        margin-top: -40%;
+        margin-left: -22%;
+    }
+
+
+/* projects page */
+
+    .projects{
+        height: 110vh;
+    }
+
+
+/* contact page */
+
+    .contactUs h2 {
+        margin-top: 5%;
+    }
+
+    .contactUs .sticky{
+        margin-top: -10px;
+    }
+
+
+/* copyright page */
+
+    #p1 p{
+        padding-top: 0.95%;
+    }
+
+
+}

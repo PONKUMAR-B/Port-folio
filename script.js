@@ -1,12 +1,12 @@
 
+var menu = document.querySelector('.menu');
+var navbar = document.querySelector('.nav_bar ul');
+var back = document.querySelector('.nav_bar ul .li1');
+var back1 = document.querySelector('.nav_bar ul .li2');
+var back2 = document.querySelector('.nav_bar ul .li3');
+var back3 = document.querySelector('.nav_bar ul .li4');
+var back4 = document.querySelector('.nav_bar ul .li5');
 
-var menu=document.querySelector('.menu');
-var navbar=document.querySelector('.nav_bar ul');
-var back=document.querySelector('.nav_bar ul .li1');
-var back1=document.querySelector('.nav_bar ul .li2');
-var back2=document.querySelector('.nav_bar ul .li3');
-var back3=document.querySelector('.nav_bar ul .li4');
-var back4=document.querySelector('.nav_bar ul .li5');
 
 menu.addEventListener('click',()=>{
     navbar.classList.toggle('slide');
