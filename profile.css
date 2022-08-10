@@ -602,6 +602,7 @@
         border-radius: 10px;
         border: none;
         margin: 0% 38%;
+        margin-top: 5%;
     }
     .contactUs .form #btn:hover{
         color: #9000ff;
